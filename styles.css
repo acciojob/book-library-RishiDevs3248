@@ -1,1 +1,32 @@
-/*  your css code here. If applicable */
+css /*  your css code here. If applicable */
+body{
+            background-color: #f8f8f8;
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+        .book-library{
+            background-color: #ffffff;
+            display: flex;
+			flex-direction: column;
+            justify-content: space-around;
+            padding: 20px;
+            border-radius: 8px;
+			width: 500px;
+        }
+        .book{
+            /* text-align: center; */
+            padding: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            border-radius: 8px;
+            width: 100%;
+			box-sizing: border-box;
+        }
+        .book img{
+            border-radius: 8px;
+			text-align: center;
+			align-content:center;
+			align-self: center;
+        }
+.book div{
+	width: 100%;
+}
